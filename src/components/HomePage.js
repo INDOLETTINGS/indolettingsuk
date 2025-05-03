@@ -36,11 +36,9 @@ const HomePage = () => {
       {/* Top Navigation Bar */}
       <NavBar isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} setModalOpen={setModalOpen}/>
 
-      {/* Modal for Contact Numbers */}
       <CallModal isModalOpen={isModalOpen} setModalOpen={setModalOpen} />
 
 
-      {/* Hero Section with Background Image */}
       <header
         className="text-white text-center  py-40 md:py-60 mt-16 px-4"
         style={{
