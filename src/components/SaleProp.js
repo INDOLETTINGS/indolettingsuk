@@ -4,7 +4,6 @@ import CallModal from "./CallModal";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-import { Link } from "react-router-dom";
 import { Home, Security, People, Gavel } from "@mui/icons-material";
 
 function SaleProp() {
